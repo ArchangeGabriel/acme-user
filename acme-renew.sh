@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/bash
 
 for domain in $(find /etc/acme -type d -not -path /etc/acme); do
     echo "Checking certificate expiry date for ${domain##*/}…"

@@ -8,7 +8,6 @@ Group=acme
 PermissionsStartOnly=True
 ExecStart=/usr/bin/acme-renew
 ExecStartPost=!/usr/bin/acme-post
-Restart=on-failure
 StateDirectory=acme
 ReadWritePaths=/etc/acme/
 AmbientCapabilities=

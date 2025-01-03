@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/bash
 
 # Read through domains
 for domain in $(find /etc/acme -type d -not -path /etc/acme); do
